@@ -10,6 +10,7 @@ const BlogsList = async () => {
   console.log(forms);
   return (
     <div className="text-white">
+      {/* add coment */}
       {forms?.map((form) => (
         <div key={form.id} className="mt-10 border">
           <h2>{form.name}</h2>
